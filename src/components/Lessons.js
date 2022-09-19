@@ -1,13 +1,43 @@
-import React from 'react'
+import React from "react";
+import lessonsPic from "../img/CloseUp.jpg";
 
 const Lessons = () => {
   return (
-    <div>
-         <h1>Lessons</h1>
-      <p>Danielle is a fantastic teacher and you should definately hire her</p>
-    <a href='/'>go back</a>
-    </div>
-  )
-}
+    <div className="container">
+      <div className="page">
+        <div className="pageColumn">
+          <h1>Lessons</h1>
+          <img
+            className="frontPagePic"
+            src={lessonsPic}
+            alt="front page pic"
+            style={{
+              width: "80%",
+            }}
+          />
+        </div>
 
-export default Lessons
+        <div className="pageColumn">
+          <p>
+            Since 2008, Danielle has been sharing her passion for music with
+            students of all ages. She firmly believes that everyone has
+            different strengths and styles of learning and creates unique lesson
+            plans to suit the individual needs of each student. Because students
+            learn best when they are happy, Danielle does everything she can to
+            create a nurturing environment and encourages students to pursue
+            their own musical interests and dreams. It is her goal to give
+            students an arsenal of tools they can use to become self-sufficient
+            musicians with a deep understanding of the technical, theoretical,
+            and expressive elements of the music they are telling stories
+            through. Danielle currently teaches piano and harp out of her home
+            studio, in student’s homes in the City of Chicago, and online.
+          </p>
+        </div>
+      </div>
+
+      <a href="/">go home</a>
+    </div>
+  );
+};
+
+export default Lessons;

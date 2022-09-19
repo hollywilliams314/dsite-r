@@ -1,13 +1,34 @@
-import Menu from './Menu'
+import Menu from "./Menu";
+import logo from "./../img/Logo.jpg";
+import "./../index.css";
+import "./styleSheet.css";
 
-const Header = () => {
-    const onClick = () => {}
+const Header = ({ showMenu }) => {
+  const onClick = () => {};
   return (
-    <header className='header'>
-      <h1>Danielle Williams</h1>
-      <Menu onClick={onClick}/>
-    </header>
-  )
-}
+    <header className="header">
+      {/* <div> */}
+      <div className="nameAndLogo">
+        <img
+          className="headerLogo"
+          src={logo}
+          alt="logo"
+          style={{
+            width: "20%",
+          }}
+        />
+        <h3>Danielle Williams</h3>
+      </div>
 
-export default Header
+      {/* <div className="btn"> */}
+      <div>
+        <button className="menuButton">Menu</button>
+        {/* <Menu onClick={onClick} /> */}
+      </div>
+      {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}
+      {/* </div> */}
+    </header>
+  );
+};
+
+export default Header;
