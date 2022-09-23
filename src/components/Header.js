@@ -7,26 +7,27 @@ const Header = ({ showMenu }) => {
   const onClick = () => {};
   return (
     <header className="header">
-      {/* <div> */}
-      <div className="nameAndLogo">
-        <img
-          className="headerLogo"
-          src={logo}
-          alt="logo"
-          style={{
-            width: "20%",
-          }}
-        />
-        <h3>Danielle Williams</h3>
-      </div>
+      <div className="bsticky">
+        <div className="nameAndLogo">
+          <img
+            className="headerLogo"
+            src={logo}
+            alt="logo"
+            s
+            style={{
+              width: "20%",
+            }}
+          />
+          <h3>Danielle Williams</h3>
+        </div>
 
-      {/* <div className="btn"> */}
-      <div>
-        <button className="menuButton">Menu</button>
-        {/* <Menu onClick={onClick} /> */}
+        {/* <div className="btn"> */}
+        <div>
+          <button className="menuButton">Menu</button>
+          {/* <Menu onClick={onClick} /> */}
+        </div>
+        {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}
       </div>
-      {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}
-      {/* </div> */}
     </header>
   );
 };
