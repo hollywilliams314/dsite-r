@@ -7,7 +7,8 @@ const Header = ({ showMenu }) => {
   const onClick = () => {};
   return (
     <header className="header">
-      <div className="bsticky">
+      <div className="header-container">
+        {/* <div className="bsticky"> */}
         <div className="nameAndLogo">
           <img
             className="headerLogo"
@@ -18,7 +19,7 @@ const Header = ({ showMenu }) => {
               width: "20%",
             }}
           />
-          <h3>Danielle Williams</h3>
+          <h3 className="headerLogo">Danielle Williams</h3>
         </div>
 
         {/* <div className="btn"> */}
@@ -27,6 +28,7 @@ const Header = ({ showMenu }) => {
           {/* <Menu onClick={onClick} /> */}
         </div>
         {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}
+        {/* </div> */}
       </div>
     </header>
   );

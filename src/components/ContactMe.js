@@ -22,10 +22,10 @@ const ContactMe = () => {
 
           <div class="boxes">
             <div>
-              <span class="text-secondary">Email:</span>harpwolfstl@yahoo.com
+              <h3 className="emailAndPhone">Email:</h3>harpwolfstl@yahoo.com
             </div>
             <div>
-              <span class="text-secondary">Phone/Text:</span>314-717-8703
+              <h3 className="emailAndPhone">Phone/Text:</h3>314-717-8703
             </div>
           </div>
         </div>
