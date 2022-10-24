@@ -19,25 +19,123 @@ const Regulation = () => {
 
         <div className="pageColumn">
           <p>
-            Since the age of 15 Danielle has been in instrument repair. She
-            began her career in 2006 working on woodwinds, brasswinds, and
-            string instruments. In 2013 she became head of the repair department
-            in two music stores in St. Louis and built her own shops where she
-            had many loyal customers.
+            Danielle began her career as an instrument technician in 2006 at the
+            age of 15, specializing in woodwinds, brasswinds, and orchestral
+            string instruments. In 2013 she built her own shops and became head
+            of the band instrument repair departments in two music stores in St.
+            Louis where she had many loyal customers.
           </p>
           <p>
             In 2019 Danielle moved to Chicago to complete the harp regulation
-            program at Lyon & Healy. She completed her apprenticeship in the
-            summer of 2020 and is an approved member of the Lyon & Healy and
-            Salvi Technicians Guild. When her apprenticeship ended she was hired
-            on full time at the factory. In addition to studying regulation,
-            Danielle has worked extensively in assembly of new production and
-            vintage harps and has experience rebuilding and regulating harps of
-            all ages. As a professional harpist, Danielle understands the needs
-            performers demand of their instruments. With her 15 years as an
-            instrument technician, she has experience serving customers of all
-            skill levels - from complete beginners to nationally acclaimed
-            musicians
+            program at Lyon & Healy. She studied under John Papodolias and
+            became a member of the Lyon & Healy and Salvi Technician’s Guild in
+            2020. After the apprenticeship ended she was hired on full time at
+            the factory. In addition to studying regulation, Danielle has worked
+            extensively in final assembly of new production and vintage harps
+            and has experience rebuilding and regulating harps of all ages.
+          </p>
+          <p>
+            As a professional harpist, Danielle understands the needs performers
+            demand of their instruments. With her 16 years as an instrument
+            technician, she has experience serving customers of all skill levels
+            - from complete beginners to internationally acclaimed musicians.
+          </p>
+          <h3>What is a regulation?</h3>
+          <p>
+            A harp regulation is regular maintenance performed to keep your
+            instrument in optimal playing condition.
+          </p>
+          <h4>A typical pedal harp regulation includes:</h4>
+          <p>
+            <ul>
+              <li>
+                Inspecting the overall condition of the harp and noting any
+                potential future repairs
+              </li>
+              <li>Replacing red pedal felts and white slot felts</li>
+              <li>Adjusting pedal rod length as necessary </li>
+              <li>
+                Inspecting and adjusting pedal movement and spring function
+              </li>
+              <li>Inspecting overall action condition and function</li>
+              <li>
+                Centering strings in the middle of discs and adjusting grip
+              </li>
+              <li>Adjusting intonation</li>
+              <li>Eliminating or improving unwanted sounds</li>
+            </ul>
+          </p>
+          <h4>A typical lever harp regulation includes:</h4>
+          <p>
+            <ul>
+              <li>
+                Inspecting the overall condition of the harp and noting any
+                potential future repairs
+              </li>
+              <li>Aligning strings and levers</li>
+              <li>Inspecting and adjusting string nuts</li>
+              <li>Replacing any necessary parts</li>
+              <li>Adjusting intonation</li>
+              <li>Eliminating or improving unwanted sounds</li>
+            </ul>
+          </p>
+          <p>
+            Ideally pedal harps should be regulated every 1-2 years. Lever harps
+            don’t need to be regulated as often - usually every 3-5 years or if
+            there is a problem. Having your harp serviced regularly will keep
+            your instrument playing it’s best, keep small issues from turning
+            into big problems, and can keep you up to date about the harp’s
+            condition to avoid unexpected major repairs.
+          </p>
+          <h3>Price List:</h3>
+          <h4>*All prices subject to change* Full Service*</h4>
+          <p>
+            Full Service
+            Regulation.............................................................................$380
+          </p>
+          <p>
+            Felts change
+            only...................................................................................$75
+          </p>
+          <p>
+            Warranty
+            Regulation.................................................................................N/C
+          </p>
+          <p>
+            Lever Harp
+            Regulation...............................................................................$175
+          </p>
+          <p>
+            Hourly
+            Labor........................................................................................$120
+          </p>
+          <p>
+            Pedal Rod
+            Lubrication...............................................................................$120
+          </p>
+          <p>
+            Restring Pedal Harp
+            .........................................................................$175
+          </p>
+          <p>
+            Restring
+            Harp................................................................................$125
+          </p>
+          <p>
+            Bass Wires
+            Change............................................................................$75
+          </p>
+          <p>
+            Restringing per
+            octave.......................................................................$30
+          </p>
+          <p>
+            Diagnostics/Condition
+            Report.................................................................N/C
+          </p>
+          <p>
+            House Calls: (2 lever harps = 1 pedal harp) 1 Harp - $100, 2 harps -
+            $50, 3 harps - no extra charge
           </p>
         </div>
       </div>
