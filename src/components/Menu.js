@@ -14,6 +14,7 @@ const Menu = ({ onClick }) => {
       </p>
       <p>
         <a href="/dsite-r/events">Weddings and Events </a>
+        <Route path="/dsite-r/events" element={<Events />} />
       </p>
       <p>
         <a href="/dsite-r/lessons">Lessons</a>
