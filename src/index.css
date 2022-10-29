@@ -1,7 +1,8 @@
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@300;400&display=swap"); */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
 /* @import url("https://fonts.googleapis.com/css2?family=Shalimar:wght@300;400&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Amita:wght@300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Amita:wght@300;400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400&display=swap");
 
 @font-face {
   font-family: "ED Mentasta-Regular";
@@ -15,7 +16,8 @@
 }
 
 body {
-  font-family: "Amita", serif;
+  font-family: "Gothic A1", sans-serif;
+  /* font-family: "Amita", serif; */
   /* font-family: "Shalimar", serif; */
   /* font-family: "Open Sans", sans-serif; */
   /* font-family: "ED Mentasta-Regular", sans-serif; */
@@ -54,6 +56,10 @@ p {
   margin-bottom: 1em;
 }
 
+p-top-space {
+  margin-top: 6 rem;
+}
+
 .frontPage {
   display: flex;
   flex-direction: column;
@@ -80,10 +86,16 @@ p {
   /* flex-direction: row; */
 }
 
-.bsticky {
-  display: flex;
+.page-title {
   position: sticky;
-  top: 0;
+  top: 20rem;
+  z-index: 1;
+}
+
+.bsticky {
+  position: sticky;
+  top: 22rem;
+  z-index: 1;
 }
 
 .headerLogo {
@@ -116,12 +128,60 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .regulationsPage {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.row {
+  line-height: 2em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.row .left {
+  -webkit-order: 1;
+  -moz-order: 1;
+  -ms-order: 1;
+  order: 1;
+}
+.row .right {
+  -webkit-order: 3;
+  -moz-order: 3;
+  -ms-order: 3;
+  order: 3;
+}
+
+.row:after {
+  content: "";
+  margin: 0px 4px;
+  background: -webkit-radial-gradient(
+    50% 50%,
+    circle,
+    black 12%,
+    transparent 15%
+  );
+  background: -moz-radial-gradient(50% 50%, circle, black 12%, transparent 15%);
+  background: radial-gradient(circle at 50% 50%, black 12%, transparent 15%);
+  background-size: 1em 1em;
+  background-position: 0 0.5em;
+  background-repeat: repeat-x;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-order: 2;
+  -moz-order: 2;
+  -ms-order: 2;
+  order: 2;
 }
 
 .btn {

@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import Popup from "reactjs-popup";
 import logo from "./../img/Logo.jpg";
 import "./../index.css";
 import "./styleSheet.css";
@@ -24,7 +25,10 @@ const Header = ({ showMenu }) => {
 
         {/* <div className="btn"> */}
         <div>
-          <button className="menuButton">Menu</button>
+          <Popup trigger={<button className="menuButton"> Menu </button>}>
+            <Menu />
+          </Popup>
+          {/* <button className="menuButton">Menu</button> */}
           {/* <Menu onClick={onClick} /> */}
         </div>
         {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}

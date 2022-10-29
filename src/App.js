@@ -17,28 +17,9 @@ function App() {
 
   return (
     <Router>
-      {/* <h2>Home Page</h2> */}
       <div className="frontPage">
         <Header />
-        {/* <FrontPage /> */}
-        {/* <FrontPageSection title={'Weddings & Events'} />
-        <FrontPageSection title={'Lessons'} />
-        <FrontPageSection title={'Harp Regulation'} /> */}
-        {/* <div>  */}
-        {/* <div>
-        <img  
-          className="frontPagePic" 
-          src={frontPagePic} 
-          alt="front page pic"
-          style={{
-            width:"80%"
-          }}
-        
-        />
-      </div> */}
         <Routes>
-          {/* <Route path='/' exact /> */}
-          {/* <a href='/'>Home</a> */}
           <Route path="" element={<FrontPage />} />
           <Route path="/" element={<FrontPage />} />
           <Route path="/bio" element={<Bio />} />
@@ -48,7 +29,6 @@ function App() {
           <Route path="/contactMe" element={<ContactMe />} />
         </Routes>
         <Footer />
-        {/* </div> */}
       </div>
     </Router>
   );
