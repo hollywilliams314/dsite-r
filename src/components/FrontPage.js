@@ -1,4 +1,6 @@
 import React from "react";
+import TextBox from "./TextBox";
+import Menu from "./Menu";
 import frontPagePic from "../img/Dleaningonharp2.jpg";
 
 const FrontPage = ({ title }) => {
@@ -15,7 +17,28 @@ const FrontPage = ({ title }) => {
           }}
         />
       </div>
-      <h1>BIO</h1>
+
+      <div className="textBoxContainer">
+        <TextBox
+          display={{
+            title: "Weddings & Events",
+            text: "Since 2006, Danielle has been playing the harp professionally for events of all kinds. To add a unique and memorable element to your event, hire Danielle to play harp for your wedding, cocktail hour, or any special occasion. ",
+          }}
+        />
+        <TextBox
+          display={{
+            title: "Lessons",
+            text: "Danielle is a passionate teacher that loves to share her excitement for music with students. With over 15 years of teaching experience, she tailors to the individual needs of students of all ages and musical backgrounds. ",
+          }}
+        />
+        <TextBox
+          display={{
+            title: "Harp Regulation",
+            text: "Danielle is a certified Lyon & Healy and Salvi harp technician and guild member. Current areas of service include the United States (all regions), Mexico, and Australia. Contact directly for a service request.",
+          }}
+        />
+      </div>
+      {/* <h1>BIO</h1>
       <p>
         Danielle Williams is a multifaceted harpist and instrumentalist
         currently based in Chicago, Illinois. She began studying the harp in her
@@ -38,7 +61,7 @@ const FrontPage = ({ title }) => {
         few. In 2019 Danielle released her debut solo album Why Are We Surprised
         When Seasons Change? featuring her original songs played on the harp
         through effects pedals along with saxophone and vocals.
-      </p>
+      </p> */}
     </div>
   );
 };

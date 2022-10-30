@@ -1,3 +1,4 @@
+// import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import { useState } from "react";
 import Header from "./components/Header";
@@ -20,9 +21,9 @@ function App() {
       <div className="frontPage">
         <Header />
         <Routes>
-          <Route path="dsite-r" element={<FrontPage />} />
-          <Route path="dsite-r/" element={<FrontPage />} />
-          <Route path="dsite-r/bio" element={<Bio />} />
+          <Route path="" element={<FrontPage />} />
+          <Route path="/" element={<FrontPage />} />
+          <Route path="/bio" element={<Bio />} />
           <Route path="/events" element={<Events />} />
           <Route path="/lessons" element={<Lessons />} />
           <Route path="/regulation" element={<Regulation />} />

@@ -43,6 +43,14 @@ body {
   font-family: "ED Mentasta-Regular", sans-serif;
 }
 
+.textBoxContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.textBox {
+  border: 3px solid black;
+}
+
 .page {
   display: flex;
   margin: 30px auto;
@@ -214,6 +222,12 @@ p-top-space {
   font-size: 12px;
   font-family: "Amita";
   /* font-family: inherit; */
+}
+
+.menuBox {
+  background-color: a973f0;
+  color: #fff;
+  border-radius: 25px;
 }
 
 .btn:focus {

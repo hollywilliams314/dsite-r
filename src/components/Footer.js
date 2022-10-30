@@ -7,9 +7,17 @@ const Footer = () => {
     <footer>
       <div className="socialLinks">
         <IconContext.Provider value={{ className: "shared-class", size: 30 }}>
-          <FaFacebook className="socialIcon" />
-          <FaInstagram className="socialIcon" />
-          <FaBandcamp className="socialIcon" />
+          <a href="https://www.facebook.com/harpwolfstl">
+            <FaFacebook className="socialIcon" />
+          </a>
+          {/* <FaFacebook className="socialIcon" /> */}
+          <a href="http://instagram.com/harpwolf">
+            <FaInstagram className="socialIcon" />
+          </a>
+          {/* <FaInstagram className="socialIcon" /> */}
+          <a href="https://danielletaylorharp.bandcamp.com/releases">
+            <FaBandcamp className="socialIcon" />
+          </a>
         </IconContext.Provider>
       </div>
       <p>Copyright &copy; 2022</p>

@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 import Popup from "reactjs-popup";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Events from "./Events";
 
 const Menu = ({ onClick }) => {
   const Menu = () => {
@@ -8,22 +10,24 @@ const Menu = ({ onClick }) => {
     };
   };
   return (
-    <div>
+    <div className="menuBox">
       <p>
         <a href="/bio">Bio</a>
       </p>
       <p>
-        <a href="/dsite-r/events">Weddings and Events </a>
-        <Route path="/dsite-r/events" element={<Events />} />
+        <a href="/events">Weddings and Events </a>
       </p>
       <p>
-        <a href="/dsite-r/lessons">Lessons</a>
+        <a href="/lessons">Lessons</a>
       </p>
       <p>
-        <a href="/dsite-r/regulation">Harp Regulation</a>
+        <a href="/regulation">Harp Regulation</a>
       </p>
       <p>
-        <a href="/dsite-r/contactMe">Contact Me</a>
+        <a href="/contactMe">Contact Me</a>
+      </p>
+      <p>
+        <a href="/">Home</a>
       </p>
     </div>
   );
