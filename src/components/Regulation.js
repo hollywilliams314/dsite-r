@@ -135,7 +135,6 @@ const Regulation = () => {
           </p>
         </div>
       </div>
-      <a href="/">go home</a>
     </div>
   );
 };
