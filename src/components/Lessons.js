@@ -34,8 +34,6 @@ const Lessons = () => {
           </p>
         </div>
       </div>
-
-      <a href="/">go home</a>
     </div>
   );
 };

@@ -31,7 +31,6 @@ const Events = () => {
           </p>
         </div>
       </div>
-      <a href="/">Home</a>
     </div>
   );
 };

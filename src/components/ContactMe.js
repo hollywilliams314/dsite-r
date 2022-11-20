@@ -30,7 +30,6 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
-      <a href="/">Home</a>
     </div>
   );
 };

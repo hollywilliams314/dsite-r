@@ -37,7 +37,6 @@ const Bio = () => {
           </p>
         </div>
       </div>
-      <Link to="/">go home</Link>
     </div>
   );
 };

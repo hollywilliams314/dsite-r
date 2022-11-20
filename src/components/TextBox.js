@@ -7,7 +7,6 @@ const TextBox = ({ display }) => {
       <p>{display.title}</p>
       <div className="page">
         <div className="textBox">
-          {/* <p>{display.title}</p> */}
           <p>{display.text}</p>
         </div>
         <div></div>

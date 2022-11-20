@@ -1,5 +1,6 @@
 // import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -17,7 +18,7 @@ function App() {
   // const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className="frontPage">
         <Header />
         <Routes>
@@ -31,7 +32,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
