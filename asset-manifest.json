@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a5e7ce87.css",
-    "main.js": "/static/js/main.d50100fb.js",
+    "main.js": "/static/js/main.8bb727c4.js",
     "static/js/787.35f0cdd6.chunk.js": "/static/js/787.35f0cdd6.chunk.js",
     "static/media/CloseupBack.jpg": "/static/media/CloseupBack.1e7a38564b03e2931473.jpg",
     "static/media/Dleaningonharp2.jpg": "/static/media/Dleaningonharp2.e0485912a5d9dd95b7e3.jpg",
@@ -13,11 +13,11 @@
     "static/media/ED Mentasta-Regular.ttf": "/static/media/ED Mentasta-Regular.a00a5120ff2c671581fa.ttf",
     "index.html": "/index.html",
     "main.a5e7ce87.css.map": "/static/css/main.a5e7ce87.css.map",
-    "main.d50100fb.js.map": "/static/js/main.d50100fb.js.map",
+    "main.8bb727c4.js.map": "/static/js/main.8bb727c4.js.map",
     "787.35f0cdd6.chunk.js.map": "/static/js/787.35f0cdd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5e7ce87.css",
-    "static/js/main.d50100fb.js"
+    "static/js/main.8bb727c4.js"
   ]
 }
