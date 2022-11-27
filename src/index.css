@@ -41,14 +41,22 @@ body {
   background-color: white;
   /* margin-bottom: 50px; */
   font-family: "ED Mentasta-Regular", sans-serif;
+  font-size: 1.75em;
 }
 
 .textBoxContainer {
   display: flex;
   margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
 }
 .textBox {
-  border: 3px solid black;
+  background-color: #d3bbf2;
+  color: #000;
+  /* border: 3px solid black; */
+  border-radius: 5px;
+  padding: 9px;
+  text-align: center;
 }
 
 .page {
@@ -95,9 +103,11 @@ p-top-space {
 }
 
 .page-title {
-  position: sticky;
+  /* position: sticky; */
+  font-family: "ED Mentasta-Regular", sans-serif;
   top: 20rem;
   z-index: 1;
+  margin-bottom: 10px;
 }
 
 .bsticky {

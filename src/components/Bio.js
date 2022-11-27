@@ -6,7 +6,7 @@ const Bio = () => {
     <div className="container">
       <div className="page">
         <div className="pageColumn">
-          <h1>BIO</h1>
+          {/* <h1>BIO</h1> */}
           <img
             className="frontPagePic"
             src={bioPic}
@@ -18,6 +18,8 @@ const Bio = () => {
         </div>
 
         <div className="pageColumn">
+          <h1 className="page-title">Bio</h1>
+
           <p>
             Danielle Williams is a multifaceted harpist and instrumentalist
             currently based in Chicago, Illinois. She began studying the harp in

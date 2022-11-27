@@ -6,7 +6,7 @@ const Regulation = () => {
     <div className="container">
       <div className="page">
         <div className="pageColumn">
-          <h1 className="page-title">REGULATIONS</h1>
+          {/* <h1 className="page-title">REGULATIONS</h1> */}
           <img
             className="frontPagePic bsticky"
             src={regPic}
@@ -18,6 +18,8 @@ const Regulation = () => {
         </div>
 
         <div className="pageColumn">
+          <h1 className="page-title">Regulations</h1>
+
           <p>
             Danielle began her career as an instrument technician in 2006 at the
             age of 15, specializing in woodwinds, brasswinds, and orchestral

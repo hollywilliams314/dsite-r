@@ -16,7 +16,7 @@ const Events = () => {
           />
         </div>
         <div className="pageColumn">
-          <h1>Weddings and EVENTS</h1>
+          <h1 className="page-title">Weddings and Events</h1>
           <p>
             Adding harp music to your event is a unique way to create a classy
             and memorable atmosphere. Hire Danielle to provide harp music for

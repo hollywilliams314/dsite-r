@@ -6,7 +6,7 @@ const Lessons = () => {
     <div className="container">
       <div className="page">
         <div className="pageColumn">
-          <h1>Lessons</h1>
+          {/* <h1>Lessons</h1> */}
           <img
             className="frontPagePic"
             src={lessonsPic}
@@ -18,6 +18,8 @@ const Lessons = () => {
         </div>
 
         <div className="pageColumn">
+          <h1 className="page-title">Lessons</h1>
+
           <p>
             Since 2008, Danielle has been sharing her passion for music with
             students of all backgrounds and ages. She firmly believes that

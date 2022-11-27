@@ -18,7 +18,7 @@ function App() {
   // const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="frontPage">
         <Header />
         <Routes>
@@ -32,7 +32,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

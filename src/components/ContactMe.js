@@ -6,7 +6,6 @@ const ContactMe = () => {
     <div className="container">
       <div className="page">
         <div className="pageColumn">
-          <h1>CONTACT ME</h1>
           <img
             className="frontPagePic"
             src={contactPic}
@@ -18,6 +17,8 @@ const ContactMe = () => {
         </div>
 
         <div className="pageColumn">
+          <h1 className="page-title">Contact Me</h1>
+
           <h2 class="sm-heading">How to reach me...</h2>
 
           <div class="boxes">
