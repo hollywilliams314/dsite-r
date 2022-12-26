@@ -1,5 +1,8 @@
 import React from "react";
 import regPic from "../img/harpcorner.jpg";
+import build_back_pic from "../img/build_back.jpg";
+import build_front_pic from "../img/build_front.jpg";
+import build_side_pic from "../img/build_side.jpg";
 
 const Regulation = () => {
   return (
@@ -11,6 +14,31 @@ const Regulation = () => {
             className="frontPagePic bsticky"
             src={regPic}
             alt="regulation pic"
+            style={{
+              width: "90%",
+            }}
+          />
+          <h3 className="p-top-space">Danielle building her own harp</h3>
+          <img
+            className="frontPagePic bsticky"
+            src={build_back_pic}
+            alt="Danielle builds her harp pic"
+            style={{
+              width: "90%",
+            }}
+          />
+          <img
+            className="frontPagePic bsticky"
+            src={build_front_pic}
+            alt="Danielle builds her harp pic"
+            style={{
+              width: "90%",
+            }}
+          />
+          <img
+            className="frontPagePic bsticky"
+            src={build_side_pic}
+            alt="Danielle builds her harp pic"
             style={{
               width: "90%",
             }}

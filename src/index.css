@@ -66,15 +66,21 @@ body {
 
 .pageColumn {
   flex: 1;
+  font-family: "Gothic A1", sans-serif;
 }
 
 p {
   margin-bottom: 1em;
 }
 
-p-top-space {
-  margin-top: 6 rem;
+.p-top-space {
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
+
+/* Ftask{
+  margin-top: 6 rem;
+} */
 
 .frontPage {
   display: flex;
@@ -278,13 +284,13 @@ footer {
   justify-content: space-between;
 }
 
-.task {
+/* .task {
   /* background: #f4f4f4; */
-  margin: 5px;
+/* margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
-}
-
+} */
+/* 
 .task.reminder {
   border-left: 5px solid green;
 }
@@ -293,9 +299,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
-.add-form {
+/* .add-form {
   margin-bottom: 40px;
 }
 
@@ -328,4 +334,4 @@ footer {
 .form-control-check input {
   flex: 2;
   height: 20px;
-}
+} */

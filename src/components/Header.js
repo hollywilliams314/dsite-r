@@ -20,7 +20,7 @@ const Header = ({ showMenu }) => {
               width: "20%",
             }}
           />
-          <h1 className="headerLogo">Danielle Williams</h1>
+          <h3 className="headerLogo">Danielle Williams</h3>
         </div>
 
         {/* <div className="btn"> */}
