@@ -1,12 +1,11 @@
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@300;400&display=swap"); */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
-/* @import url("https://fonts.googleapis.com/css2?family=Shalimar:wght@300;400&display=swap"); */
-/* @import url("https://fonts.googleapis.com/css2?family=Amita:wght@300;400&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400&display=swap");
-
 @font-face {
   font-family: "ED Mentasta-Regular";
   src: local("ED Mentasta"), url("./fonts/ED Mentasta/ED\ Mentasta-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gothic_A1";
+  src: local("Gothic_A1"), url("./fonts/Gothic_A1/GothicA1-Light.ttf");
 }
 
 * {
@@ -16,47 +15,48 @@
 }
 
 body {
-  font-family: "Gothic A1", sans-serif;
-  /* font-family: "Amita", serif; */
-  /* font-family: "Shalimar", serif; */
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family: "ED Mentasta-Regular", sans-serif; */
+  font-family: "Gothic_A1", sans-serif;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   /* max-width: 500px; */
-  margin: 30px auto;
+  margin: 30px;
+  /* margin: 30px auto; */
   /* overflow: auto; */
-  min-height: 300px;
-  /* border: 1px solid steelblue; */
+  min-height: 400px;
+  /* min-height: 300px; */
   padding: 30px;
   border-radius: 5px;
 }
 
-.header-container {
-  display: flex;
-  align-items: flex-start;
-  background-color: white;
-  /* margin-bottom: 50px; */
-  font-family: "ED Mentasta-Regular", sans-serif;
-  font-size: 1.75em;
-}
-
-.textBoxContainer {
+.textBoxesContainer {
   display: flex;
   margin-top: 20px;
   border-radius: 5px;
   text-align: center;
 }
+
+.textBoxContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .textBox {
   background-color: #d3bbf2;
   color: #000;
-  /* border: 3px solid black; */
   border-radius: 5px;
   padding: 9px;
   text-align: center;
+  vertical-align: top;
+}
+
+.textBoxTitle {
+  display: grid;
 }
 
 .page {
@@ -67,6 +67,8 @@ body {
 .pageColumn {
   flex: 1;
   font-family: "Gothic A1", sans-serif;
+  width: 50%;
+  /* min-width: 50%; */
 }
 
 p {
@@ -77,10 +79,6 @@ p {
   margin-bottom: 1em;
   margin-top: 1em;
 }
-
-/* Ftask{
-  margin-top: 6 rem;
-} */
 
 .frontPage {
   display: flex;
@@ -100,12 +98,28 @@ p {
   display: flex;
   /* justify-content: space-between; */
   /* align-items: center; */
+  width: 100%;
   align-self: center;
   margin-bottom: 30px;
   position: sticky;
   top: 0;
   z-index: 100;
+  background-color: white;
   /* flex-direction: row; */
+  font-family: "ED Mentasta-Regular", sans-serif;
+  font-size: 1.75em;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  /* margin-bottom: 50px; */
+  font-family: "ED Mentasta-Regular", sans-serif;
+  font-size: 1.75em;
 }
 
 .page-title {
@@ -135,7 +149,7 @@ p {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
   flex: 2;
   margin-bottom: 3rem;
 }
@@ -153,6 +167,17 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-top: 1rem;
+  /* margin-right: 2rem; */
+  /* padding-right: 2rem; */
+}
+
+.otherPagePic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+  /* margin-right: 2rem; */
+  /* padding-right: 2rem; */
 }
 
 .regulationsPage {
@@ -283,55 +308,3 @@ footer {
   /* justify-content: center; */
   justify-content: space-between;
 }
-
-/* .task {
-  /* background: #f4f4f4; */
-/* margin: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-} */
-/* 
-.task.reminder {
-  border-left: 5px solid green;
-}
-
-.task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
-/* .add-form {
-  margin-bottom: 40px;
-}
-
-.form-control {
-  margin: 20px 0;
-}
-
-.form-control label {
-  display: block;
-}
-
-.form-control input {
-  width: 100%;
-  height: 40px;
-  margin: 5px;
-  padding: 3px 7px;
-  font-size: 17px;
-}
-
-.form-control-check {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.form-control-check label {
-  flex: 1;
-}
-
-.form-control-check input {
-  flex: 2;
-  height: 20px;
-} */

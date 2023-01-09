@@ -18,7 +18,7 @@ const Regulation = () => {
               width: "90%",
             }}
           />
-          <h3 className="p-top-space">Danielle building her own harp</h3>
+          <h4 className="p-top-space">Danielle building her own harp</h4>
           <img
             className="frontPagePic bsticky"
             src={build_back_pic}

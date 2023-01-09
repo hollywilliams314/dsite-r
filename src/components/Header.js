@@ -7,8 +7,11 @@ import "./styleSheet.css";
 const Header = ({ showMenu }) => {
   const onClick = () => {};
   return (
+    // <header>
     <header className="header">
-      <div className="header-container">
+      {/* <div> */}
+      <div className="header">
+        {/* <div className="header-container"> */}
         {/* <div className="bsticky"> */}
         <div className="nameAndLogo">
           <img
