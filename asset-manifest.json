@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/dsite-r/static/css/main.497524f7.css",
-    "main.js": "/dsite-r/static/js/main.0d5ab411.js",
+    "main.css": "/dsite-r/static/css/main.9c2ca049.css",
+    "main.js": "/dsite-r/static/js/main.0c9c3c8c.js",
     "static/js/787.35f0cdd6.chunk.js": "/dsite-r/static/js/787.35f0cdd6.chunk.js",
     "static/media/CloseupBack.jpg": "/dsite-r/static/media/CloseupBack.1e7a38564b03e2931473.jpg",
     "static/media/build_back.jpg": "/dsite-r/static/media/build_back.fa472f04db0e699bcb06.jpg",
+    "static/media/GothicA1-Light.ttf": "/dsite-r/static/media/GothicA1-Light.06857cbe9659227c0223.ttf",
     "static/media/build_side.jpg": "/dsite-r/static/media/build_side.f348fbf3eba78e04244c.jpg",
     "static/media/build_front.jpg": "/dsite-r/static/media/build_front.3ff3469dbaea2a55e9a3.jpg",
     "static/media/Dleaningonharp2.jpg": "/dsite-r/static/media/Dleaningonharp2.e0485912a5d9dd95b7e3.jpg",
@@ -15,12 +16,12 @@
     "static/media/Logo.jpg": "/dsite-r/static/media/Logo.44f4701bf8e0afe668b4.jpg",
     "static/media/ED Mentasta-Regular.ttf": "/dsite-r/static/media/ED Mentasta-Regular.a00a5120ff2c671581fa.ttf",
     "index.html": "/dsite-r/index.html",
-    "main.497524f7.css.map": "/dsite-r/static/css/main.497524f7.css.map",
-    "main.0d5ab411.js.map": "/dsite-r/static/js/main.0d5ab411.js.map",
+    "main.9c2ca049.css.map": "/dsite-r/static/css/main.9c2ca049.css.map",
+    "main.0c9c3c8c.js.map": "/dsite-r/static/js/main.0c9c3c8c.js.map",
     "787.35f0cdd6.chunk.js.map": "/dsite-r/static/js/787.35f0cdd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.497524f7.css",
-    "static/js/main.0d5ab411.js"
+    "static/css/main.9c2ca049.css",
+    "static/js/main.0c9c3c8c.js"
   ]
 }
