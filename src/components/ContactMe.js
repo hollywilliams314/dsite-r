@@ -1,5 +1,6 @@
 import React from "react";
-import contactPic from "../img/DHuggingHarp.jpg";
+import contactPic from "../img/playingAtWedding.jpg";
+// import contactPic from "../img/DHuggingHarp.jpg";
 
 const ContactMe = () => {
   return (
@@ -19,7 +20,7 @@ const ContactMe = () => {
         <div className="pageColumn">
           <h1 className="page-title">Contact Me</h1>
 
-          <h2 class="sm-heading">How to reach me...</h2>
+          <h3 class="sm-heading">How to reach me...</h3>
 
           <div class="boxes">
             <div>
