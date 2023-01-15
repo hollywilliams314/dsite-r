@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dsite-r/static/css/main.9c2ca049.css",
-    "main.js": "/dsite-r/static/js/main.0c9c3c8c.js",
+    "main.css": "/dsite-r/static/css/main.7b876bbb.css",
+    "main.js": "/dsite-r/static/js/main.716ff1d0.js",
     "static/js/787.35f0cdd6.chunk.js": "/dsite-r/static/js/787.35f0cdd6.chunk.js",
     "static/media/CloseupBack.jpg": "/dsite-r/static/media/CloseupBack.1e7a38564b03e2931473.jpg",
     "static/media/build_back.jpg": "/dsite-r/static/media/build_back.fa472f04db0e699bcb06.jpg",
@@ -16,12 +16,12 @@
     "static/media/Logo.jpg": "/dsite-r/static/media/Logo.44f4701bf8e0afe668b4.jpg",
     "static/media/ED Mentasta-Regular.ttf": "/dsite-r/static/media/ED Mentasta-Regular.a00a5120ff2c671581fa.ttf",
     "index.html": "/dsite-r/index.html",
-    "main.9c2ca049.css.map": "/dsite-r/static/css/main.9c2ca049.css.map",
-    "main.0c9c3c8c.js.map": "/dsite-r/static/js/main.0c9c3c8c.js.map",
+    "main.7b876bbb.css.map": "/dsite-r/static/css/main.7b876bbb.css.map",
+    "main.716ff1d0.js.map": "/dsite-r/static/js/main.716ff1d0.js.map",
     "787.35f0cdd6.chunk.js.map": "/dsite-r/static/js/787.35f0cdd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2ca049.css",
-    "static/js/main.0c9c3c8c.js"
+    "static/css/main.7b876bbb.css",
+    "static/js/main.716ff1d0.js"
   ]
 }
