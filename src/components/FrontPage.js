@@ -12,9 +12,9 @@ const FrontPage = ({ title }) => {
           className="frontPagePic"
           src={frontPagePic}
           alt="front page pic"
-          style={{
-            width: "100%",
-          }}
+          // style={{
+          //   width: "100%",
+          // }}
         />
       </div>
 

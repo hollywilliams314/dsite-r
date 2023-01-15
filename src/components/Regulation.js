@@ -10,18 +10,26 @@ const Regulation = () => {
       <div className="page">
         <div className="pageColumn">
           {/* <h1 className="page-title">REGULATIONS</h1> */}
-          <img
-            className="frontPagePic bsticky"
+          {/* <img
+            className="otherPagePic bsticky"
             src={regPic}
             alt="regulation pic"
             style={{
               width: "90%",
             }}
-          />
+          /> */}
           <h4 className="p-top-space">Danielle building her own harp</h4>
           <img
-            className="frontPagePic bsticky"
+            className="otherPagePic bsticky"
             src={build_back_pic}
+            alt="Danielle builds her harp pic"
+            style={{
+              width: "90%",
+            }}
+          />
+          <img
+            className="otherPagePic bsticky"
+            src={build_side_pic}
             alt="Danielle builds her harp pic"
             style={{
               width: "90%",
@@ -30,14 +38,6 @@ const Regulation = () => {
           <img
             className="frontPagePic bsticky"
             src={build_front_pic}
-            alt="Danielle builds her harp pic"
-            style={{
-              width: "90%",
-            }}
-          />
-          <img
-            className="frontPagePic bsticky"
-            src={build_side_pic}
             alt="Danielle builds her harp pic"
             style={{
               width: "90%",
