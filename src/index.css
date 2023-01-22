@@ -109,7 +109,7 @@ p {
   background-color: white;
   /* flex-direction: row; */
   font-family: "ED Mentasta-Regular", sans-serif;
-  /* font-size: 1.55em; */
+  font-size: 1.25em;
 }
 
 .header-container {
@@ -176,7 +176,8 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-top: 1rem;
-  width: 100%;
+  margin-right: 5px;
+  width: 95%;
   /* margin-right: 2rem; */
   /* padding-right: 2rem; */
 }
@@ -260,18 +261,21 @@ p {
 }
 
 .menuButton {
-  display: inline-block;
+  /* display: inline-block; */
   /* background: #000; */
   background: #a973f0;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 5px 5px 5px 5px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 12px;
   font-family: "Amita";
+  position: relative;
+  transform: translate(290px, -250px);
+  z-index: 500;
   /* font-family: inherit; */
 }
 

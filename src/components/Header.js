@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Popup from "reactjs-popup";
+import Modal from "react-modal";
 import logo from "./../img/Logo.jpg";
 import "./../index.css";
 import "./styleSheet.css";
@@ -7,37 +8,32 @@ import "./styleSheet.css";
 const Header = ({ showMenu }) => {
   const onClick = () => {};
   return (
-    // <header>
-    <header className="header">
-      {/* <div> */}
-      <div className="header">
-        {/* <div className="header-container"> */}
-        {/* <div className="bsticky"> */}
-        <div className="nameAndLogo">
-          <img
-            className="headerLogo"
-            src={logo}
-            alt="logo"
-            s
-            style={{
-              width: "20%",
-            }}
-          />
-          <h1 className="headerLogo">Danielle Williams</h1>
+    <div>
+      <header className="header">
+        <div className="header">
+          <div className="nameAndLogo">
+            <img
+              className="headerLogo"
+              src={logo}
+              alt="logo"
+              s
+              style={{
+                width: "20%",
+              }}
+            />
+            <h1 className="headerLogo">Danielle Williams</h1>
+          </div>
         </div>
-
-        {/* <div className="btn"> */}
-        <div>
-          <Popup trigger={<button className="menuButton"> Menu </button>}>
-            <Menu />
-          </Popup>
-          {/* <button className="menuButton">Menu</button> */}
-          {/* <Menu onClick={onClick} /> */}
-        </div>
-        {/* <div>{showMenu && <Menu onClick={onClick} />}</div> */}
-        {/* </div> */}
+      </header>
+      <div>
+        {/* <Modal trigger={<button className="menuButton"> Menu </button>}>
+          <Menu />
+        </Modal> */}
+        <Popup trigger={<button className="menuButton"> Menu </button>}>
+          <Menu />
+        </Popup>
       </div>
-    </header>
+    </div>
   );
 };
 
