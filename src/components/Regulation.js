@@ -106,7 +106,7 @@ const Regulation = () => {
               <li>Inspecting and adjusting string nuts</li>
               <li>Replacing any necessary parts</li>
               <li>Adjusting intonation</li>
-              <li>Eliminating or improving unwanted sounds</li>
+              <li>Eliminating or improving unwanted noises</li>
             </ul>
           </p>
           <p>
@@ -122,6 +122,10 @@ const Regulation = () => {
           <div className="row">
             <span className="left">Full Service Regulation</span>
             <span className="right">$380</span>
+          </div>
+          <div className="row">
+            <span className="left">Felts Change Only</span>
+            <span className="right">$75</span>
           </div>
           <div className="row">
             <span className="left">Warranty Regulation</span>
@@ -160,8 +164,8 @@ const Regulation = () => {
             <span className="right">N/C</span>
           </div>
           <p className="p-top-space">
-            House Calls: (2 lever harps = 1 pedal harp) 1 Harp - $100, 2 harps -
-            $50, 3 harps - no extra charge
+            House Calls: (2 lever harps = 1 pedal harp) 1 Harp - $100 + travel
+            fare, 2 harps - $50 + travel fare, 3 harps - no extra charge
           </p>
         </div>
       </div>
