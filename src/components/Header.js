@@ -8,32 +8,32 @@ import "./styleSheet.css";
 const Header = ({ showMenu }) => {
   const onClick = () => {};
   return (
-    <div>
-      <header className="header">
-        <div className="header">
-          <div className="nameAndLogo">
-            <img
-              className="headerLogo"
-              src={logo}
-              alt="logo"
-              s
-              style={{
-                width: "20%",
-              }}
-            />
-            <h1 className="headerLogo">Danielle Williams</h1>
-          </div>
+    <header className="header">
+      <div style={{ display: "flex" }}>
+        <div className="nameAndLogo">
+          <img
+            className="headerLogo"
+            src={logo}
+            alt="logo"
+            s
+            style={{
+              width: "225px",
+            }}
+          />
         </div>
-      </header>
-      <div>
-        {/* <Modal trigger={<button className="menuButton"> Menu </button>}>
-          <Menu />
-        </Modal> */}
-        <Popup trigger={<button className="menuButton"> Menu </button>}>
+        <Popup
+          trigger={(open) => (
+            <button open={open} className="menuButton" closeOnDocumentClick>
+              {" "}
+              Menu{" "}
+            </button>
+          )}
+        >
           <Menu />
         </Popup>
       </div>
-    </div>
+      <h1 className=" nameAndLogo">Danielle Williams</h1>
+    </header>
   );
 };
 
