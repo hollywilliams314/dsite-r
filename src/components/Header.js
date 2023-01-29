@@ -32,7 +32,7 @@ const Header = ({ showMenu }) => {
           <Menu />
         </Popup>
       </div>
-      <h1 className=" nameAndLogo">Danielle Williams</h1>
+      <h1 className="nameAndLogo">Danielle Williams</h1>
     </header>
   );
 };

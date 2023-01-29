@@ -8,9 +8,10 @@ const Lessons = () => {
         <div className="pageColumn">
           {/* <h1>Lessons</h1> */}
           <img
-            className="frontPagePic"
+            className="otherPagePic"
+            // className="frontPagePic"
             src={lessonsPic}
-            alt="front page pic"
+            alt="lessons page pic"
             style={{
               width: "80%",
             }}

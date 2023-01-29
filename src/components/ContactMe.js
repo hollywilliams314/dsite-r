@@ -8,9 +8,10 @@ const ContactMe = () => {
       <div className="page">
         <div className="pageColumn">
           <img
-            className="frontPagePic"
+            className="otherPagePic"
+            // className="frontPagePic"
             src={contactPic}
-            alt="front page pic"
+            alt="contact page pic"
             style={{
               width: "90%",
             }}

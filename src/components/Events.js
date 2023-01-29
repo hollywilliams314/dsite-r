@@ -7,7 +7,8 @@ const Events = () => {
       <div className="page">
         <div className="pageColumn">
           <img
-            className="frontPagePic"
+            className="otherPagePic"
+            // className="frontPagePic"
             src={eventsPic}
             alt="events pic"
             style={{

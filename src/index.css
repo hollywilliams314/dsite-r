@@ -9,7 +9,7 @@
 }
 
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
@@ -85,14 +85,9 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* max-width: 500px; */
   margin: 10px 10px;
-  /* margin: 30px auto; */
-  /* overflow: auto; */
   min-height: 300px;
-  /* border: 1px solid steelblue; */
   padding: 10px;
-  /* padding: 30px; */
   border-radius: 5px;
   align-items: center;
 }
@@ -120,9 +115,7 @@ p {
   top: 0;
   z-index: 100;
   background-color: white;
-  /* margin-bottom: 50px; */
   font-family: "ED Mentasta-Regular", sans-serif;
-  /* font-size: 1.55em; */
 }
 
 @media screen and(min-width: 500px) {
@@ -159,12 +152,11 @@ p {
 .nameAndLogo {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   flex: 2;
   margin-bottom: 1rem;
   font-family: "ED Mentasta-Regular", sans-serif;
-  font-size: 3.25em;
+  font-size: 3em;
 }
 
 .emailAndPhone {
@@ -180,8 +172,12 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-top: 1rem;
-  margin-right: 5px;
-  width: 95%;
+  margin-left: 5px;
+  margin-right: 15px;
+  /* margin-top: 1rem; */
+  /* margin-right: 5px; */
+  width: 90%;
+  /* width: 95%; */
   /* margin-right: 2rem; */
   /* padding-right: 2rem; */
 }

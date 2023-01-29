@@ -36,7 +36,8 @@ const Regulation = () => {
             }}
           />
           <img
-            className="frontPagePic bsticky"
+            className="otherPagePic bsticky"
+            // className="frontPagePic bsticky"
             src={build_front_pic}
             alt="Danielle builds her harp pic"
             style={{
