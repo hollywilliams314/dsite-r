@@ -8,7 +8,6 @@ const Bio = () => {
         <div className="pageColumn">
           <img
             className="otherPagePic"
-            // className="frontPagePic"
             src={bioPic}
             alt="bio page pic"
             style={{

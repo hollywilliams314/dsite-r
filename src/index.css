@@ -156,7 +156,7 @@ p {
   flex: 2;
   margin-bottom: 1rem;
   font-family: "ED Mentasta-Regular", sans-serif;
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 .emailAndPhone {
@@ -261,8 +261,6 @@ p {
 }
 
 .menuButton {
-  /* display: inline-block; */
-  /* background: #000; */
   background: #a973f0;
   color: #fff;
   border: none;
