@@ -167,6 +167,14 @@ p {
   margin-bottom: 1rem;
 }
 
+.small-font {
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: 14px;
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
+}
+
 .frontPagePic {
   display: flex;
   flex-direction: column;
