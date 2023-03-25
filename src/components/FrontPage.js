@@ -1,9 +1,13 @@
 import React from "react";
 import TextBox from "./TextBox";
 import Menu from "./Menu";
+import { useEffect } from "react";
 import frontPagePic from "../img/Dleaningonharp2.jpg";
 
 const FrontPage = () => {
+  useEffect(() => {
+    document.body.style.zoom = "76%";
+  }, []);
   return (
     <div className="container">
       <div className="frontPage">
