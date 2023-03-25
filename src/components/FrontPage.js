@@ -3,10 +3,10 @@ import TextBox from "./TextBox";
 import Menu from "./Menu";
 import frontPagePic from "../img/Dleaningonharp2.jpg";
 
-const FrontPage = ({ title }) => {
+const FrontPage = () => {
   return (
-    <div>
-      <div className="container">
+    <div className="container">
+      <div className="frontPage">
         <div className="page">
           <img
             className="frontPagePic"

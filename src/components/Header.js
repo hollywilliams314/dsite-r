@@ -5,7 +5,7 @@ import logo from "./../img/Logo.jpg";
 import "./../index.css";
 import "./styleSheet.css";
 
-const Header = ({ showMenu }) => {
+const Header = () => {
   const onClick = () => {};
   return (
     <header className="header">
