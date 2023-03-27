@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </IconContext.Provider>
       </div>
-      <p>Copyright &copy; 2022</p>
+      <p>Copyright &copy; 2023</p>
     </footer>
   );
 };

@@ -25,7 +25,8 @@ const ContactMe = () => {
 
           <div class="boxes">
             <div>
-              <h3 className="emailAndPhone">Email:</h3>harpwolfstl@yahoo.com
+              <h3 className="emailAndPhone">Email:</h3>
+              <span className="small-font">daniellew.harp@yahoo.com</span>
             </div>
             <div>
               <h3 className="emailAndPhone">Phone/Text:</h3>314-717-8703
