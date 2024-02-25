@@ -122,51 +122,55 @@ const Regulation = () => {
           <h4>*All prices subject to change* </h4>
           <div className="row">
             <span className="left">Full Service Regulation</span>
-            <span className="right">$380</span>
+            <span className="right">$485</span>
           </div>
           <div className="row">
             <span className="left">Felts Change Only</span>
-            <span className="right">$75</span>
+            <span className="right">$120</span>
           </div>
           <div className="row">
             <span className="left">Warranty Regulation</span>
             <span className="right">N/C</span>
           </div>
           <div className="row">
+            <span className="left">Adjust Intonation Only</span>
+            <span className="right">$225</span>
+          </div>
+          <div className="row">
             <span className="left">Lever Harp Regulation</span>
-            <span className="right">$175</span>
+            <span className="right">$250</span>
           </div>
           <div className="row">
             <span className="left">Hourly Labor</span>
-            <span className="right">$120</span>
+            <span className="right">$150</span>
           </div>
           <div className="row">
-            <span className="left">Pedal Rod Lubrication</span>
-            <span className="right">$120</span>
-          </div>
-          <div className="row">
-            <span className="left">Restring Pedal Harp</span>
-            <span className="right">$175</span>
-          </div>
-          <div className="row">
-            <span className="left">Restring Lever Harp</span>
-            <span className="right">$125</span>
+            <span className="left">Tubing Rod Lubrication</span>
+            <span className="right">$150</span>
           </div>
           <div className="row">
             <span className="left">Bass Wires Change</span>
             <span className="right">$75</span>
           </div>
           <div className="row">
+            <span className="left">Restring Pedal Harp</span>
+            <span className="right">$250</span>
+          </div>
+          <div className="row">
+            <span className="left">Restring Lever Harp</span>
+            <span className="right">$150</span>
+          </div>
+          <div className="row">
             <span className="left">Restringing per octave</span>
-            <span className="right">$30</span>
+            <span className="right">$35</span>
           </div>
           <div className="row">
             <span className="left">Diagnostics/Condition Report</span>
             <span className="right">N/C</span>
           </div>
           <p className="p-top-space">
-            House Calls: (2 lever harps = 1 pedal harp) 1 Harp - $100 + travel
-            fare, 2 harps - $50 + travel fare, 3 harps - no extra charge
+            House Calls: (2 lever harps = 1 pedal harp) Travel Fare + $150 for 1
+            Harp, + $100 for 2 harps, 3 harps - no extra charge
           </p>
         </div>
       </div>
